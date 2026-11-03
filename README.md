@@ -21,8 +21,9 @@ The Digital Certificate Management System is a Java-based application developed 
 - Apache NetBeans
  
 
-## Project Structure
-  
+## 4. Project Structure
+
+```text
 DigitalCertificateSystem/
 │
 ├── src/
@@ -33,17 +34,22 @@ DigitalCertificateSystem/
 │       ├── Main.java
 │       ├── PDFGenerator.java
 │       ├── QRGenerator.java
+│       ├── QRGeneratorTest.java
 │       │
 │       └── ui/
 │           ├── LoginFrame.java
 │           ├── MainFrame.java
+│           ├── MainFrame.form
 │           ├── IssueCertificate.java
-│           └── VerifyCertificate.java
+│           ├── IssueCertificate.form
+│           ├── VerifyCertificate.java
+│           └── VerifyCertificate.form
 │
 ├── nbproject/
 ├── dist/
 ├── build.xml
 └── manifest.mf
+```
 
 
 ## Database Setup
@@ -90,8 +96,8 @@ ZXing Core
 5. The certificate can be verified using its Verification ID.
 
 
-# Project Purpose
+## Project Purpose
 This project demonstrates certificate management, database connectivity, PDF generation, and QR-based certificate identification.
 
 
-# Developed as a Java Project.
+## Developed as a Java Project.
