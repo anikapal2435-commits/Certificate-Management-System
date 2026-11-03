@@ -1,9 +1,9 @@
 # Digital Certificate Management System
 
-Project Description
+## Project Description
 The Digital Certificate Management System is a Java-based application developed using Java Swing and MySQL. It helps administrators issue, store, and verify digital certificates.
 
- Features
+## Features
 - Admin login
 - Issue digital certificates
 - Store certificate details in MySQL database
@@ -11,7 +11,7 @@ The Digital Certificate Management System is a Java-based application developed 
 - Generate certificates in PDF format
 - Generate QR codes containing the Verification ID
 
- Technologies Used
+## Technologies Used
 - Java
 - Java Swing
 - MySQL
@@ -21,7 +21,7 @@ The Digital Certificate Management System is a Java-based application developed 
 - Apache NetBeans
  
 
-   Project Structure
+## Project Structure
   
 DigitalCertificateSystem/
 │
@@ -46,7 +46,7 @@ DigitalCertificateSystem/
 └── manifest.mf
 
 
-# Database Setup
+## Database Setup
 
 1. Install MySQL.
 2. Create a database:
@@ -64,25 +64,25 @@ CREATE TABLE certificates (
 5. Configure your MySQL username and password in DBConnection.java.
  
    
-# Required Libraries
+## Required Libraries
 Add the following libraries to the NetBeans project:
 MySQL Connector/J
 OpenPDF
 ZXing Core
 
 
- How to Run
+## How to Run
 1. Open the project in Apache NetBeans.
 2. Configure MySQL and create the `certificate_db` database.
 3. Add the required library JAR files.
 4. Update the database connection details in `DBConnection.java`.
 5. Run `Main.java`.
 
- Admin Login
+## Admin Login
 - Username: `admin`
 - Password: `admin123`
 
- Application Workflow
+## Application Workflow
 1. Admin logs into the application.
 2. Admin enters certificate details.
 3. Certificate information is stored in MySQL.
@@ -94,4 +94,4 @@ ZXing Core
 This project demonstrates certificate management, database connectivity, PDF generation, and QR-based certificate identification.
 
 
- Developed as a Java Project.
+# Developed as a Java Project.
