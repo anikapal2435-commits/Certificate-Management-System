@@ -100,4 +100,4 @@ ZXing Core
 This project demonstrates certificate management, database connectivity, PDF generation, and QR-based certificate identification.
 
 
-## Developed as a Java Project.
+
